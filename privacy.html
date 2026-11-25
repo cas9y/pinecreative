@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — PineCreative</title>
+  <meta name="description" content="How PineCreative collects, uses and protects your personal information." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --pine: #0f2e25; --moss: #2f6b55; --cream: #f6f1e7; --paper: #fffdf8;
+      --ink: #14211d; --muted: #5b6b65; --accent: #ff7a3d; --line: rgba(20,33,29,.12);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: "Inter", system-ui, sans-serif; color: var(--ink); background: var(--cream); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    h1, h2 { font-family: "Fraunces", Georgia, serif; line-height: 1.15; letter-spacing: -0.02em; }
+    a { color: inherit; text-decoration: none; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+    header { position: sticky; top: 0; z-index: 50; background: rgba(15,46,37,.92); backdrop-filter: blur(10px); color: var(--cream); }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+    .logo { display: flex; align-items: center; gap: 10px; font-family: "Fraunces", serif; font-weight: 700; font-size: 22px; }
+    .logo svg { width: 30px; height: 30px; }
+    .back { font-size: 15px; font-weight: 600; padding: 10px 20px; border-radius: 999px; border: 1.5px solid currentColor; transition: background .2s; }
+    .back:hover { background: rgba(255,255,255,.08); }
+
+    .page-hero { background: var(--pine); color: var(--cream); padding: 72px 0 64px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #9fd3bd; }
+    .eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+    .page-hero h1 { font-size: clamp(38px, 5vw, 60px); margin: 16px 0 12px; }
+    .page-hero p { opacity: .75; }
+
+    .layout { display: grid; grid-template-columns: 240px 1fr; gap: 64px; padding: 72px 24px 110px; }
+    .toc { position: sticky; top: 104px; align-self: start; font-size: 14px; }
+    .toc strong { display: block; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+    .toc ol { list-style: none; display: grid; gap: 8px; }
+    .toc a { color: var(--muted); transition: color .2s; }
+    .toc a:hover { color: var(--accent); }
+
+    article { background: var(--paper); border: 1px solid var(--line); border-radius: 20px; padding: 56px; max-width: 780px; }
+    article section { scroll-margin-top: 100px; }
+    article section + section { margin-top: 40px; padding-top: 40px; border-top: 1px solid var(--line); }
+    article h2 { font-size: 26px; margin-bottom: 14px; color: var(--pine); }
+    article p, article li { color: #33433d; font-size: 16px; }
+    article p + p { margin-top: 12px; }
+    article ul { margin: 12px 0 0 20px; display: grid; gap: 8px; }
+    article a { color: var(--accent); font-weight: 500; }
+    article a:hover { text-decoration: underline; }
+
+    footer { background: var(--ink); color: rgba(246,241,231,.6); padding: 32px 0; font-size: 13px; }
+    .foot-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 860px) {
+      .layout { grid-template-columns: 1fr; gap: 32px; }
+      .toc { position: static; }
+      article { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <a href="index.html" class="logo" aria-label="PineCreative home">
+        <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 3 6 15h5l-6 8h8v6h6v-6h8l-6-8h5L16 3Z" fill="#ff7a3d"/></svg>
+        PineCreative
+      </a>
+      <a href="index.html" class="back">← Back to home</a>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow">Legal</span>
+      <h1>Privacy Policy</h1>
+      <p>Effective date: November 25, 2026</p>
+    </div>
+  </div>
+
+  <div class="wrap layout">
+    <nav class="toc" aria-label="Contents">
+      <strong>Contents</strong>
+      <ol>
+        <li><a href="#intro">1. Introduction</a></li>
+        <li><a href="#collect">2. Information we collect</a></li>
+        <li><a href="#use">3. How we use it</a></li>
+        <li><a href="#cookies">4. Cookies &amp; analytics</a></li>
+        <li><a href="#share">5. Sharing your information</a></li>
+        <li><a href="#retention">6. Data retention</a></li>
+        <li><a href="#security">7. Security</a></li>
+        <li><a href="#rights">8. Your rights</a></li>
+        <li><a href="#children">9. Children's privacy</a></li>
+        <li><a href="#links">10. Third-party links</a></li>
+        <li><a href="#changes">11. Changes to this policy</a></li>
+        <li><a href="#contact">12. Contact us</a></li>
+      </ol>
+    </nav>
+
+    <article>
+      <section id="intro">
+        <h2>1. Introduction</h2>
+        <p>PineCreative ("PineCreative", "we", "us" or "our") respects your privacy. This Privacy Policy explains how we collect, use, share and protect personal information when you visit our website or contact us about our digital marketing services.</p>
+        <p>By using this website, you agree to the practices described in this policy. If you do not agree, please do not use the site.</p>
+      </section>
+
+      <section id="collect">
+        <h2>2. Information we collect</h2>
+        <p><strong>Information you give us.</strong> When you fill in our contact or audit request form, email us or book a call, we may collect:</p>
+        <ul>
+          <li>Your name and email address</li>
+          <li>Your company website URL</li>
+          <li>Your approximate marketing budget</li>
+          <li>Any details you share about your business and goals</li>
+        </ul>
+        <p><strong>Information collected automatically.</strong> When you visit the site, we may collect technical data such as your IP address, browser type, device, pages viewed, referring website and the date and time of your visit.</p>
+      </section>
+
+      <section id="use">
+        <h2>3. How we use your information</h2>
+        <ul>
+          <li>To respond to your enquiries and prepare your requested marketing audit</li>
+          <li>To provide, manage and improve our services</li>
+          <li>To send you information you have requested, or updates you have opted in to receive</li>
+          <li>To understand how visitors use our website and improve its content and performance</li>
+          <li>To protect our website against fraud, abuse and security threats</li>
+          <li>To comply with legal obligations</li>
+        </ul>
+        <p>We do not sell your personal information.</p>
+      </section>
+
+      <section id="cookies">
+        <h2>4. Cookies &amp; analytics</h2>
+        <p>We may use cookies and similar technologies to remember your preferences, measure website traffic and understand how visitors interact with our pages. We may also use third-party analytics and advertising tools, which may set their own cookies.</p>
+        <p>You can control or delete cookies through your browser settings. Blocking some cookies may affect how parts of the site work.</p>
+      </section>
+
+      <section id="share">
+        <h2>5. Sharing your information</h2>
+        <p>We only share personal information when necessary, including with:</p>
+        <ul>
+          <li><strong>Service providers</strong> who help us operate our business, such as website hosting, email, form handling, CRM and analytics providers, under appropriate confidentiality obligations</li>
+          <li><strong>Legal authorities</strong> when required by law, or to protect our rights, users or the public</li>
+          <li><strong>A successor business</strong> in the event of a merger, acquisition or sale of assets</li>
+        </ul>
+      </section>
+
+      <section id="retention">
+        <h2>6. Data retention</h2>
+        <p>We keep personal information only for as long as needed for the purposes described in this policy, or as required by law. Enquiry data that does not lead to a business relationship is typically deleted within 24 months.</p>
+      </section>
+
+      <section id="security">
+        <h2>7. Security</h2>
+        <p>We use reasonable technical and organisational measures to protect your information against loss, misuse and unauthorised access. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
+      </section>
+
+      <section id="rights">
+        <h2>8. Your rights</h2>
+        <p>Depending on where you live, you may have the right to:</p>
+        <ul>
+          <li>Access the personal information we hold about you</li>
+          <li>Ask us to correct inaccurate information</li>
+          <li>Ask us to delete your information</li>
+          <li>Object to or restrict certain processing</li>
+          <li>Withdraw consent at any time, where processing is based on consent</li>
+          <li>Unsubscribe from marketing emails using the link in any email</li>
+        </ul>
+        <p>To exercise any of these rights, contact us using the details below. We will respond within the time required by applicable law.</p>
+      </section>
+
+      <section id="children">
+        <h2>9. Children's privacy</h2>
+        <p>Our website and services are intended for businesses and are not directed at children under 16. We do not knowingly collect personal information from children. If you believe a child has provided us with information, please contact us and we will delete it.</p>
+      </section>
+
+      <section id="links">
+        <h2>10. Third-party links</h2>
+        <p>Our website may link to third-party websites or platforms. We are not responsible for the privacy practices or content of those sites, and we encourage you to read their privacy policies.</p>
+      </section>
+
+      <section id="changes">
+        <h2>11. Changes to this policy</h2>
+        <p>We may update this Privacy Policy from time to time. When we do, we will revise the effective date at the top of this page. Significant changes will be highlighted on our website.</p>
+      </section>
+
+      <section id="contact">
+        <h2>12. Contact us</h2>
+        <p>If you have any questions about this Privacy Policy or how we handle your data, please contact us at <a href="mailto:hello@pinecreative.com">hello@pinecreative.com</a>.</p>
+      </section>
+    </article>
+  </div>
+
+  <footer>
+    <div class="wrap foot-bottom">
+      <span>© <span id="year"></span> PineCreative. All rights reserved.</span>
+      <span><a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a></span>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="cookie-consent.js" defer></script>
+</body>
+</html>
